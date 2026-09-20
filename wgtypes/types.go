@@ -1,10 +1,10 @@
 package wgtypes
 
 import (
-	"crypto/curve25519"
 	"crypto/rand"
 	"encoding/base64"
 	"fmt"
+	"golang.org/x/crypto/curve25519"
 	"net"
 	"time"
 )
